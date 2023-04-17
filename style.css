@@ -1,0 +1,129 @@
+/* Global stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Sayfa başlığı */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Menü */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Blog gönderileri */
+  .blog-post {
+    margin-bottom: 50px;
+  }
+  
+  .blog-post h2 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .blog-posts {
+    background-color: #25054a;
+  }
+  
+  /* İletişim formu */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form textarea {
+    height: 200px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.project p {
+    margin-top: 0;
+}
+
+.blog-kapak {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .blog-kapak img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    flex: 1 0 calc(33.333% - 10px);
+  }
+  .Projelerimiz-kapak {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(69, 17, 120);
+  }
+  
+
+  .Projelerimiz-kapak img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    flex: 1 0 calc(33.333% - 10px);
+  }
